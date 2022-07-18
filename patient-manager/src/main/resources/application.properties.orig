@@ -1,0 +1,30 @@
+#H2 DATABASE PROPERTIES
+#spring.h2.console.enabled=true
+#spring.datasource.url=jdbc:h2:mem:testdb
+#spring.datasource.generate-unique-name=true
+#spring.jpa.show-sql=true
+
+server.port = 8080
+
+#MySQL DATABASE PROPERTIES
+spring.jpa.show-sql=true
+spring.jpa.hibernate.naming-strategy = org.hibernate.cfg.ImprovedNamingStrategy
+
+<<<<<<< HEAD
+spring.datasource.url = jdbc:mysql://localhost:3306
+spring.datasource.username=root
+spring.datasource.password=Fagzf123!
+=======
+spring.datasource.url = jdbc:mysql://localhost:3306/patient-manager?sessionVariables=sql_mode='NO_ENGINE_SUBSTITUTION'&jdbcCompliantTruncation=false
+<<<<<<< HEAD
+spring.datasource.username=root
+spring.datasource.password=lemon
+>>>>>>> fc74d2a73613287ff153090587b600304301b43f
+=======
+spring.datasource.username=admin
+spring.datasource.password=modeB
+>>>>>>> 8ec4a3539a46bc128f70b4a134daf6befcb8cb17
+spring.jpa.database-platform=org.hibernate.dialect.MySQL5Dialect
+
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5InnoDBDialect
+spring.jpa.hibernate.ddl-auto=update

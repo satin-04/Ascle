@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Parallax</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="parallax.css">
+</head>
+<body>
+
+
+
+		<nav>
+			<div class="container">
+		    <div class="nav-wrapper">
+		      	<a href="#!" class="brand-logo"> 
+
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="139" height="70" viewBox="0 0 239 134">
+				  <defs>
+				    <filter id="Ascle_A" x="0" y="0" width="239" height="134" filterUnits="userSpaceOnUse">
+				      <feOffset dy="3" input="SourceAlpha"/>
+				      <feGaussianBlur stdDeviation="3" result="blur"/>
+				      <feFlood flood-opacity="0.161"/>
+				      <feComposite operator="in" in2="blur"/>
+				      <feComposite in="SourceGraphic"/>
+				    </filter>
+				  </defs>
+				  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ascle_A)">
+				    <text id="Ascle_A-2" data-name="Ascle A" transform="translate(119 85)" fill="#fff" font-size="70" font-family="MuktaMahee-Regular, Mukta Mahee"><tspan x="-109.298" y="0">Ascle</tspan><tspan y="0" font-size="80" font-family="Phosphate-Inline, '\.AppleSystemUIFont'"> </tspan><tspan y="0" font-size="80" font-family="Phosphate-Inline, Phosphate">A</tspan></text>
+				  </g>
+			</svg>
+
+				</a>
+		      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+		      <ul class="right hide-on-med-and-down">
+		        <li><a href="">Link1</a></li>
+		        <li><a href="">Link2</a></li>
+		        <li><a href="">Link3</a></li>
+		        <li><a href="parallax.html">Login</a></li>
+		      </ul>
+		    </div>
+		    </div>
+		 </nav>
+
+		 <ul class="sidenav" id="mobile-demo">
+		    <li><a href="" class="waves-effect">Link1</a></li>
+		    <li><a href="" class="waves-effect">Link2</a></li>
+		    <li><a href="" class="waves-effect">Link3</a></li>
+		    <li><a href="parallax.html" class="waves-effect">Login</a></li>
+		  </ul>
+
+	<div class="background">
+
+
+
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col s12 m2"> </div>
+			    
+			    <div class="col s12 l8" style="margin-top:50px;padding: 30px;color: #ffff">
+
+			    	<form>
+			    		
+			    		<div class="card">
+
+
+
+			    			<div class="row" style="padding: 30px;">
+
+			    				<div class="col s12" style="background-color: #0096FF;border-radius: 40px;text-align: center;font-family: cursive;">
+			    					<h5>Sign Up</h5>
+			    				</div>
+
+						        <div class="input-field col s6">
+						          <input id="first_name" type="text" class="validate">
+						          <label for="first_name">First Name</label>
+						        </div>
+
+						        <div class="input-field col s6">
+						          <input id="last_name" type="text" class="validate">
+						          <label for="last_name">Last Name</label>
+						        </div>
+
+						    
+						        <div class="input-field col s12">
+						          <input id="email" type="email" class="validate">
+						          <label for="email">Email</label>
+						        </div>
+						    
+
+						        <div class="input-field col s12">
+						          <input id="password" type="password" class="validate">
+						          <label for="password">Password</label>
+						        </div>
+
+						        <div class="col s12" style="text-align: center;">
+						        	<a class="waves-effect waves-light btn" style="border-radius:40px;width: 150px;background-color: #0096FF">button</a>
+						    	</div>
+
+						    </div>
+
+			    		</div>
+
+			    	</form>
+
+			    </div>
+
+			    <div class="col s12 l2"> </div>
+			    
+		    </div>
+
+		</div>
+
+	</div>
+
+
+
+<script type="text/javascript" src="parallax.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script type="text/javascript">
+	
+	document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, {});
+  });
+
+</script>
+</body>
+</html>

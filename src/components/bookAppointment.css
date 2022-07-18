@@ -1,0 +1,29 @@
+/* .MuiInputBase-root {
+    display: inline-block;
+} */
+
+
+.custom-date{
+    /* width: 20px; */
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.custom-time{
+    color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    right: 0;
+    padding-top: 600px;
+}
+
+.inputStyles {
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid blue;
+    font-weight: 700;
+}

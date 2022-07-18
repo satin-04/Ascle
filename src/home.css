@@ -1,0 +1,41 @@
+    body { 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        font-family: Helvetica, sans-serif;
+        
+      }
+      .body-home {
+        text-align: center;
+      }    
+
+      form {
+        
+        padding: 1.5em;
+        border-radius: 1em;
+    }
+    
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .error-message {
+        margin-top: 1em;
+        color: red;
+    }
+
+    label {
+        display: flex;
+        flex-direction: row;
+        line-height: 26px;
+      }
+
+      input {
+        height: 20px;
+        width: 250px;
+        flex: 0 0 100px;
+        margin-bottom: 20px;
+      }
